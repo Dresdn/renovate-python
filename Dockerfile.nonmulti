@@ -1,3 +1,3 @@
-FROM python:3.11.4-alpine
+FROM python:3.11.17-alpine@sha256:faa35f7f7a56c17c2796719f9903b42cb17d59e671a6a74bf85549432e38770e
 WORKDIR /app
 CMD echo "Hello World - Non-multistage"
